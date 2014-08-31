@@ -1,0 +1,91 @@
+/**********************************************************************************************
+
+	Title: CSS for xuedeisgn
+	Author: Elmo Wu (by xuedesign studio)
+	Date: 2014/09
+
+***********************************************************************************************
+		1 通用
+		2.基本結構
+		  2.1 頁面頂部
+		  2.2 網站主選單
+		  2.3 完美底部布局
+		  2.4 版權列
+		  2.5 頁面中間區塊
+		  2.6 側邊產品選單
+		3.內頁結構
+		  3.1 首頁
+		     		
+***********************************************************************************************/
+
+/* 1. 通用 
+===============================================================================================*/
+body{
+	background:#fff;
+	font-family: "微軟正黑體","Microsoft JhengHei","新細明體","PMingLiU", Arial, Helvetica, sans-serif;
+	font-size:100%;
+	line-height:20px;
+	color:#2c2c2c}
+a:link {text-decoration:none; color:#2c2c2c}
+a:visited {text-decoration:none; color:#8c8c8c}
+a:hover {text-decoration:underline; color:#ad3713}
+form{margin:0; padding:0}
+image{border:0}
+.clean{ clear:both}
+.hidden{ display:none}
+@font-face{ font-family:NotoSansHant-Black; src:url(../fonts/NotoSansHant-Black.otf)}
+@font-face{ font-family:NotoSansHant-Regular; src:url(../fonts/NotoSansHant-Regular.otf)}
+@font-face{ font-family:NotoSansHant-Bold; src:url(../fonts/NotoSansHant-Bold.otf)}
+@font-face{ font-family:NotoSansHant-Light; src:url(../fonts/NotoSansHant-Light.otf)}
+@font-face{ font-family:NotoSansHant-DemiLight; src:url(../fonts/NotoSansHant-DemiLight.otf)}
+@font-face{ font-family:NotoSansHant-Medium; src:url(../fonts/NotoSansHant-Medium.otf)}
+@font-face{ font-family:NotoSansHant-Thin; src:url(../fonts/NotoSansHant-Thin.otf)}
+
+/* 2.基本結構
+===============================================================================================*/
+#wrap{ display:block; width:100%}
+
+/* 2.1 頁面頂部 */
+header{
+	display:block;
+	width:100%;
+	height:135px;
+	background:url(../images/bg_header.png) repeat-x}
+#header_main{ display:block; width:1240px; margin:0 auto}
+h1{ margin:0; padding:0}
+	
+/* 2.2 網站主選單 */
+nav{ display:block;
+	 font-size:1.25em;}
+
+/* 2.3 完美底部布局*/
+html, body, #wrap {height: 100%}
+body > #wrap {height: auto; min-height: 100%}
+#main_content{ padding-bottom:80px}
+.clearfix:after {content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden}
+.clearfix {display: inline-block}
+* html .clearfix { height: 1%}
+.clearfix {display: block}
+
+/* 2.4 版權列 */
+footer{ 
+    display:block;
+    width:100%;
+	height:80px;
+    background: url(../images/bg_footer.png) repeat-x;
+    margin-top: -80px}
+	 
+/* 2.5 頁面中間區塊 */	
+/* 2.6 側邊產品選單 */
+
+   
+
+
+
+/* 3.內頁結構
+===============================================================================================*/
+				   
