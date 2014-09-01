@@ -30,7 +30,7 @@ a:link {text-decoration:none; color:#2c2c2c}
 a:visited {text-decoration:none; color:#8c8c8c}
 a:hover {text-decoration:underline; color:#ad3713}
 form{margin:0; padding:0}
-image{border:0}
+img{border:0}
 .clean{ clear:both}
 .hidden{ display:none}
 @font-face{ font-family:NotoSansHant-Black; src:url(../fonts/NotoSansHant-Black.otf)}
@@ -51,12 +51,53 @@ header{
 	width:100%;
 	height:135px;
 	background:url(../images/bg_header.png) repeat-x}
-#header_main{ display:block; width:1240px; margin:0 auto}
-h1{ margin:0; padding:0}
+#header_main{ 
+    display:block; 
+	width:1240px; 
+	margin:0 auto;
+	padding-top:44px}
+h1 a{ display:block;
+    float:left;
+    background:url(../images/logo.png) no-repeat;
+    width:404px;
+    height:79px;
+    text-indent:-9999px}
+#box_topright{
+	display:block;
+	float:right;
+	position:relative}
+#box_topright p{
+	display:block;
+	background:url(../images/pic_tel.png) no-repeat;
+	width:285px;
+	height:34px;
+	text-indent:-9999px;
+	margin:0 0 20px 500px}			
 	
 /* 2.2 網站主選單 */
-nav{ display:block;
-	 font-size:1.25em;}
+nav{ 
+    display:block;
+	margin-left:105px}
+nav li{
+	display:inline-block; 
+	text-indent:-9999px}
+.nav_01, .nav_02, .nav_03, .nav_04, .nav_05, .nav_06{ 
+    display:block; 
+	height:28px; 
+	background:url(../images/bg_nav.png) no-repeat}
+.nav_01, .nav_02, .nav_03, .nav_04, .nav_05, .nav_06{ width:103px}	
+.nav_01{ background-position: 0 0}
+.nav_01:hover, .nav_01.navin{ background-position: 0 -28px}
+.nav_02{ background-position: 0 -56px}
+.nav_02:hover, .nav_02.navin{ background-position: 0 -84px}
+.nav_03{ background-position: 0 -112px}
+.nav_03:hover, .nav_03.navin{ background-position: 0 -140px}
+.nav_04{ background-position: 0 -168px}
+.nav_04:hover, .nav_04.navin{ background-position: 0 -196px}
+.nav_05{ width:159px; background-position: 0 -224px}
+.nav_05:hover, .nav_05.navin{ background-position: 0 -252px}
+.nav_06{ background-position: 0 -280px}
+.nav_06:hover, .nav_06.navin{ background-position: 0 -308px}
 
 /* 2.3 完美底部布局*/
 html, body, #wrap {height: 100%}
@@ -77,9 +118,30 @@ footer{
     width:100%;
 	height:80px;
     background: url(../images/bg_footer.png) repeat-x;
-    margin-top: -80px}
+    margin-top: -80px;
+	color:#FFF;
+	text-align:center}
+footer p{
+	text-align:center;
+	font-size:.813em;
+	line-height:28px;
+	letter-spacing:1px}
+footer ul{ padding-top:11px}	
+footer li{
+	display:inline;
+	font-size:.938em;
+	line-height:25px;
+	padding: 0 10px 0;
+	text-shadow: 1px 1px 5px #A0A0A0}
+footer a:link {text-decoration:none; color:#fff}
+footer a:visited {text-decoration:none; color:#fff}
+footer a:hover {text-decoration:underline; color:#84210D}			
 	 
 /* 2.5 頁面中間區塊 */	
+#container{
+	display:block;
+	width:100%}
+
 /* 2.6 側邊產品選單 */
 
    
@@ -88,4 +150,21 @@ footer{
 
 /* 3.內頁結構
 ===============================================================================================*/
+/*3-1 首頁*/
+#banner_slider{
+	display:block;
+	width:1163px;
+	height:278px;
+	margin:0 auto}
+#banner_slider h3{ display:none}	
+#box_profile{
+	display:block;
+	width:100%;
+	height:288px;
+	background:url(../images/bg_profile.png) repeat-x}
+#main_profile{
+	display:block;
+	width:1162px;
+	margin:0 auto}
+#main_profile h3{}		
 				   

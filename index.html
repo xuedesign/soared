@@ -8,9 +8,10 @@
 <link rel="shortcut icon"  href="images/favicon.ico"/>
 <link rel="icon" href="images/favicon.ico"/>
 <title>::: 翔盛技研有限公司 ::: 專業的傳動零件代理商，線性滑軌、滾珠螺桿、直線軸承、軸心等產品銷售及專業服務</title>
-<link rel="stylesheet" href="css/pure-min.css">
+<link rel="stylesheet" href="css/reset.css"/>
 <link rel="stylesheet" href="css/xuemain_201409.css"/>
-<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Noto+Sans:400,700">
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Noto+Sans:400,700"/>
+<link rel="stylesheet" href="css/flexslider.css"/>
 <script src="http://code.jquery.com/jquery.min.js"></script>
 <!--[if lt IE 9]>
 <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -25,17 +26,17 @@
       <div id="main_content" class="clearfix">
           <header>
               <section id="header_main">
-                  <h1>翔盛技研有限公司</h1>
+                  <h1><a href="index.html" title="返回首頁">翔盛技研有限公司</a></h1>
                   <div id="box_topright">
                      <p>客服專線：(03)280-6015</p>
                      <nav>
                      	<ul>
-                     		<li><a href="products_list.html" title="產品介紹">產品介紹</a></li>
-                            <li><a href="products/linear-guideway/characteristics.html" title="線性滑軌">線性滑軌</a></li>
-                            <li><a href="products/ball-screw/characteristics.html" title="滾珠螺桿">滾珠螺桿</a></li>
-                            <li><a href="download.html" title="技術支援">技術支援</a></li>
-                            <li><a href="automation-equipment-development.html" title="自動化設備開發">自動化設備開發</a></li>
-                            <li><a href="contact.html" title="聯絡我們">聯絡我們</a></li>
+                     		<li><a href="products_list.html" title="產品介紹" class="nav_01">產品介紹</a></li>
+                            <li><a href="products/linear-guideway/characteristics.html" title="線性滑軌" class="nav_02">線性滑軌</a></li>
+                            <li><a href="products/ball-screw/characteristics.html" title="滾珠螺桿" class="nav_03">滾珠螺桿</a></li>
+                            <li><a href="download.html" title="技術支援" class="nav_04">技術支援</a></li>
+                            <li><a href="automation-equipment-development.html" title="自動化設備開發" class="nav_05">自動化設備開發</a></li>
+                            <li><a href="contact.html" title="聯絡我們" class="nav_06">聯絡我們</a></li>
                      	</ul>
                      </nav>
                   </div>
@@ -44,20 +45,46 @@
           </header>
           
           <section id="container">
-          
+              
+              <div id="banner_slider" class="flexslider">
+                 <h3>翔盛重點產品介紹</h3>
+                 <ul class="slides">
+                    <li><img src="images/pic_banner-01.jpg" width="1163" height="278" alt=""></li>
+                    <li><img src="images/pic_banner-02.jpg" width="1163" height="278" alt=""></li>
+                 </ul>
+              </div>
+              
+              <div id="box_profile">
+                 <article id="main_profile">
+                      <h3>翔盛簡介</h3>
+                      <p>翔盛技研有限公司，為專業的傳動零件代理商，線性滑軌、滾珠螺桿、直線軸承、軸心等產品銷售及專業服務。專業的服務團隊本著以精湛確實的傳動技術，作為企業經營理念，提供高品質、高效率的服務。<br>
+                      提供快速交貨服務，可信賴的高品質產品，目前在台灣有許多製造業客戶在使用，也廣受好評。秉持著品質第一、專業服務的精神，整合全球營運資源努力滿足客戶需求。</p>
+                      <p>營業項目有PMI滾珠螺桿、PMI線性滑軌、PMI線性模組<br>
+                         滾珠軸承類：NSK、THK、IKO、KOYO、NACHI、SKF、FAG、<br>FBJ等各式軸承<br>
+                         鍍鉻軸心類：油壓缸軸心、軸承專用軸心、一般導柱軸心<br>
+                         聯軸器類：工業用聯軸器、伺服馬達用聯軸器、撓性聯軸器、<br>剛性聯軸器、鏈條式聯軸器<br>
+                         交叉滾子類：THK、IKO、TOPTEK各式交叉滾子軸承<br>
+                         直線軸承類：各廠牌直線軸承</p>
+                 </article>
+              </div>
           </section>
       </div>
-      
-      <footer>
+   </div><!--//end #wrap-->
+   
+   <footer>
          <p>2014&copy;翔盛技研有限公司 SOAR Inc.. All Rights Reserved.</p>
          <ul>
-            <li>電話: 03-280-6015</li>
-            <li>傳真:03-280-6016</li>
-            <li>統一編號；53875537</li>
-            <li>電子信箱：<a href="mailto:tech@soared.com.tw">tech@soared.com.tw</a></li>
+            <li>電話：03-280-6015</li>
+            <li>傳真：03-280-6016</li>
+            <li>統一編號：53875537</li>
+            <li>電子信箱：<a href="mailto:tech@soared.com.tw" title="聯絡我們">tech@soared.com.tw</a></li>
             <li>地址：桃園縣中壢市長江路76號</li>
          </ul>   
       </footer>
-   </div>
+
+<script src="script/jquery.flexslider.js"></script>
+<script> $(window).load(function(){$(".flexslider").flexslider({animation:"slide"})}); </script>      
+<script src="script/jquery.lazyload.js"></script>
+<script src="script/web_set.js"></script>
 </body>
 </html>
