@@ -33,6 +33,11 @@ form{margin:0; padding:0}
 img{border:0}
 .clean{ clear:both}
 .hidden{ display:none}
+
+.tc{ letter-spacing:4px}
+.pleft_95{ padding-left:95px}
+.pright_18{ padding-right:18px}
+
 @font-face{ font-family:NotoSansHant-Black; src:url(../fonts/NotoSansHant-Black.otf)}
 @font-face{ font-family:NotoSansHant-Regular; src:url(../fonts/NotoSansHant-Regular.otf)}
 @font-face{ font-family:NotoSansHant-Bold; src:url(../fonts/NotoSansHant-Bold.otf)}
@@ -165,6 +170,63 @@ footer a:hover {text-decoration:underline; color:#84210D}
 #main_profile{
 	display:block;
 	width:1162px;
-	margin:0 auto}
-#main_profile h3{}		
+	margin:0 auto;
+	padding:55px 0 62px 0}
+#main_profile h3, #main_profile p{ 
+    display:block;
+	float:left}
+#main_profile h3{
+	background:url(../images/pic_sublogo.png) no-repeat;
+	width:124px;
+	height:138px;
+	text-indent:-9999px}
+#main_profile p{
+	font-size:0.938em;
+	line-height:25px;
+	text-shadow: 1px 1px 3px #fcf2bb}
+.profile_01{ width:445px; padding: 0 30px}
+.profile_02{ width:525px}
+
+#list_products{ 
+    display:block;
+	width:1162px;
+	margin:0 auto 10px auto;
+	padding:40px 0}
+#list_products h3{
+	display:block;
+	background:url(../images/title_productlist.png) no-repeat;
+	width:1155px;
+	height:21px;
+	text-indent:-9999px;
+	margin-bottom:38px}
+#list_products h4{ display:none}
+.box_plist-01 li{ float:left; margin:0 8px 20px}
+.box_plist-01 li a, .box_plist-02 li a{
+	display: block;
+	position:relative;
+	padding:8px;
+	border:1px solid #E6E6E6}
+.box_plist-01 li a{ width:545px}	
+.box_plist-01 li a:hover, .box_plist-01 a:hover>img, .box_plist-02 li a:hover, .box_plist-02 a:hover>img{ border:1px solid #ad3713}
+.box_plist-01 a>img, .box_plist-02 a>img{ border:1px solid #cacaca}
+.box_plist-01 a>div, .box_plist-02 a>div{
+	display:block;
+	position:absolute;
+	bottom:12px;
+	height:31px;
+	background:url(../images/bg_pplist-span.png) repeat-x}
+.box_plist-01 a>div{ width:544px}	
+.box_plist-01 a:hover>div, .box_plist-02 a:hover>div{ background:url(../images/bg_pplist-span.png) 0 -31px}	
+.box_plist-01 h5, .box_plist-02 h5{
+	position:absolute;
+	bottom:3px;
+	font-size:1em;
+	line-height:25px;
+	color:#FFF;
+	letter-spacing:3px;
+	padding-left:35px;
+	background:url(../images/icon_arrow.png) 15px 6px no-repeat}	
+.box_plist-02 li{ float:left; margin:0 8px 20px}
+.box_plist-02 li a{ width:183px}
+.box_plist-02 a>div{ width:184px}					
 				   
