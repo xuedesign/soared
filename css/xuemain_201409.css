@@ -54,6 +54,7 @@ img{border:0}
 header{
 	display:block;
 	width:100%;
+	min-width:1240px;
 	height:135px;
 	background:url(../images/bg_header.png) repeat-x}
 #header_main{ 
@@ -121,6 +122,7 @@ body > #wrap {height: auto; min-height: 100%}
 footer{ 
     display:block;
     width:100%;
+	min-width:1240px;
 	height:80px;
     background: url(../images/bg_footer.png) repeat-x;
     margin-top: -80px;
@@ -146,12 +148,39 @@ footer a:hover {text-decoration:underline; color:#84210D}
 #container{
 	display:block;
 	width:100%}
+#wrap_c{
+	display:block;
+	width:1240px;
+	margin:0 auto}
+#box_content{
+	display:block;
+	float:right;
+	width:894px;
+	padding:35px 10px 0 32px}		
 
 /* 2.6 側邊產品選單 */
-
-   
-
-
+aside{
+	display:block;
+	float:left;
+	width:304px;
+	min-height:900px;
+	background:url(../images/bg_submenu.jpg) no-repeat;
+	padding-top:32px}
+aside h3{
+	display:block;
+	width:232px;
+	height:65px;
+	background:url(../images/title_submenu.png) no-repeat;
+	text-indent:-9999px}
+aside ul{ padding-left:10px}	
+aside li{
+	width:200px;
+	font-size:1em;
+	line-height:25px;
+	color:#4b4c4c;
+	border-bottom:1px dashed #d4d7d8;
+	padding:5px 0}
+aside li ul{ padding-left:30px}
 
 /* 3.內頁結構
 ===============================================================================================*/
@@ -165,6 +194,7 @@ footer a:hover {text-decoration:underline; color:#84210D}
 #box_profile{
 	display:block;
 	width:100%;
+	min-width:1162px;
 	height:288px;
 	background:url(../images/bg_profile.png) repeat-x}
 #main_profile{

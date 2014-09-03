@@ -15,4 +15,18 @@ window.onload = externalLinks;
 $(function() {
   $("#page_container img").lazyload({placeholder : "../images/grey.gif",effect: "fadeIn"});
       });
+	  
+//側邊產品選單
+var listMenu = new FSMenu('listMenu', true, 'display', 'block', 'none');
+showDelay = 0;
+listMenu.animations[listMenu.animations.length] = FSMenu.animFade;
+listMenu.animations[listMenu.animations.length] = FSMenu.animSwipeDown;
+var arrow = null;
+if (document.createElement && document.documentElement)
+{
+ arrow = document.createElement('span');
+ arrow.appendChild(document.createTextNode('>'));
+ arrow.className = 'subind';
+}
+addReadyEvent(new Function('listMenu.activateMenu("listMenuRoot", arrow)'));	  
 	    	  
