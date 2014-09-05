@@ -174,7 +174,8 @@ footer a:hover {text-decoration:underline; color:#84210D}
 	border:1px solid #ecebeb;	 
     text-indent:-9999px;
 	margin-bottom:20px}
-.ban-01{ background: url(../images/pic_pbanner-01.jpg) no-repeat}				
+.ban-01{ background: url(../images/linear-guideway/pic_pbanner-01.jpg) no-repeat}
+.ban-02{ background: url(../images/linear-guideway/pic_pbanner-02.jpg) no-repeat}				
 
 /* 2.6 側邊產品選單 */
 aside{
@@ -326,6 +327,7 @@ aside li ul{ padding-left:30px}
 	font-size:0.938em;
 	line-height:25px;
 	padding-bottom:30px}
+#maincon img{ display:block; margin:15px 0}	
 
 #item_products{ display:block; margin-bottom:30px}
 #item_products li a{ width:115px}
@@ -338,4 +340,47 @@ aside li ul{ padding-left:30px}
 	font-size:0.938em;
 	line-height:25px;
 	color:#FFF;
-	text-align:center}		   
+	text-align:center}
+#product_note{	display:block; margin-bottom:30px}
+.main_note{
+	display:block;
+	float: left;
+	width:645px;
+	padding-right:50px}
+.main_note p{
+	font-size:0.938eml;
+	line-height:25px}
+.download{
+	display:block;
+	float:right;
+	width:194px;
+	min-height:180px;
+	border:1px solid #ABAAAD;
+	background:url(../images/bg_cloud.png) center 50px no-repeat}
+.download h4{
+	display:block;
+	padding:8px 0;
+	text-align:center;
+	color:#FFF;
+	background:#c1c5ca}	
+.download li{
+	font-size:0.938em;
+	line-height:25px;
+	border-bottom:1px dashed #4b4a4a;
+	background:url(../images/icon_arrow.png) 0 5px no-repeat;
+	margin:10px 15px;
+	padding: 0 0 5px 20px}
+.list-type-01, .list-type-02{ display:block; padding-bottom:30px}	
+.list-type-01 li{
+	display:inline;
+	background:url(../images/icon_arrow.png) 0 5px no-repeat;
+	padding-left: 18px;
+	margin-right:20px;
+	font-size:0.938em;
+	line-height:25px}
+.list-type-02 li{
+	background:url(../images/icon_arrow.png) 0 13px no-repeat;
+	padding:8px 0 8px 18px;
+	font-size:0.938em;
+	line-height:25px;
+	border-bottom:1px dashed #CCC}				   
