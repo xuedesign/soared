@@ -43,6 +43,8 @@ img{border:0}
 .pic_right{ display:block; float:right; padding:0 0 10px 30px}
 .pic_left{ display:block; float:left; padding:0 30px 10px 0}
 .pic_center{ display:block; margin:0 auto}
+.txt-s{ font-size:80%;}
+.txt-orange{ color:#f07a18}
 
 @font-face{ font-family:NotoSansHant-Light; src:url(../fonts/NotoSansHant-Light.otf)}
 
@@ -332,7 +334,9 @@ aside li ul{ padding-left:30px}
 	background:url(../images/btn_tab.png) 0 -41px no-repeat; 
 	text-shadow:0 0 5px #E2912A}
 #box_tab li a.tabin{ font-weight:bold}
-#maincon{ display:block; margin-bottom:30px}
+#maincon{ 
+    display:block; 
+	margin-bottom:30px}
 #maincon h4, #item_products h4{
 	font-family:"NotoSansHant-Light","微軟正黑體","Microsoft JhengHei";
 	font-size:1.188em;
@@ -340,7 +344,7 @@ aside li ul{ padding-left:30px}
 	color:#FFF;		
 	letter-spacing:13px;
 	padding-left:5px}
-.txtlong-4, .txtlong-5, .txtlong-6, .txtlong-7, .txtlong-8{
+.txtlong-4, .txtlong-5, .txtlong-6, .txtlong-7, .txtlong-8, .txtlong-9, .txtlong-12{
 	display:block;
 	background: url(../images/bg_ph4.png) no-repeat;
 	height:28px;
@@ -349,7 +353,9 @@ aside li ul{ padding-left:30px}
 .txtlong-5{ width:160px; width:163px; background-position: 0 -28px}	
 .txtlong-6{ width:192px; width:195px !important; background-position: 0 -56px}	
 .txtlong-7{ width:224px; width:227px !important; background-position: 0 -84px}	
-.txtlong-8{ width:256px; width:260px !important; background-position: 0 -112px}		
+.txtlong-8{ width:256px; width:260px !important; background-position: 0 -112px}
+.txtlong-9{ width:290px; width:294px !important; background-position: 0 -140px}		
+.txtlong-12{ width:388px; width:392px !important; background-position: 0 -168px}				
 #maincon h5{
 	font-size:1em;
 	line-height:25px;
