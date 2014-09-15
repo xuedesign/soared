@@ -28,5 +28,4 @@ if (document.createElement && document.documentElement)
  arrow.appendChild(document.createTextNode('>'));
  arrow.className = 'subind';
 }
-addReadyEvent(new Function('listMenu.activateMenu("listMenuRoot", arrow)'));	  
-	    	  
+addReadyEvent(new Function('listMenu.activateMenu("listMenuRoot", arrow)'));	    	  

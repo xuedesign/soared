@@ -13,6 +13,7 @@
 		  2.4 版權列
 		  2.5 頁面中間區塊
 		  2.6 側邊產品選單
+		  2.7 返回頂端紐
 		3.內頁結構
 		  3.1 首頁
 		  3.2 產品頁
@@ -158,6 +159,7 @@ footer a:hover {text-decoration:underline; color:#84210D}
 	margin:0 auto}
 #box_content{
 	display:block;
+	position:relative;
 	float:right;
 	width:894px;
 	padding:35px 10px 0 32px}
@@ -207,6 +209,30 @@ aside li{
 	border-bottom:1px dashed #d4d7d8;
 	padding:5px 0}
 aside li ul{ padding-left:30px}
+
+#toTop{
+	display:none;
+	text-decoration:none;
+	position:fixed;
+	bottom:10px;
+	right:10px;
+	overflow:hidden;
+	width:51px;
+	height:51px;
+	border:none;
+	text-indent:-999px;
+	background:url(../images/ui.totop.png) no-repeat left top}
+#toTopHover{
+	background:url(../images/ui.totop.png) no-repeat left -51px;
+	width:51px;
+	height:51px;
+	display:block;
+	overflow:hidden;
+	float:left;
+	opacity: 0;
+	-moz-opacity: 0;
+	filter:alpha(opacity=0)}
+#toTop:active, #toTop:focus { outline:none}
 
 /* 3.內頁結構
 ===============================================================================================*/
@@ -381,7 +407,7 @@ aside li ul{ padding-left:30px}
 	line-height:25px;
 	color:#FFF;
 	text-align:center}
-#product_note{	display:block; margin-bottom:30px}
+#product_note{	display:block; margin-bottom:50px}
 .main_note{
 	display:block;
 	float: left;
@@ -393,7 +419,10 @@ aside li ul{ padding-left:30px}
 	padding-bottom:15px}
 .download{
 	display:block;
-	float:right;
+	position:absolute;
+	top:260px;
+	right:0;
+	/*float:right;*/
 	width:194px;
 	min-height:180px;
 	border:1px solid #ABAAAD;
@@ -449,13 +478,14 @@ aside li ul{ padding-left:30px}
 #maincon .boxpic_right-02 p{padding-bottom:15px}
 
 /*滾珠螺桿*/
-.ban-b01{ background: url(../images/%20ballscrew/pic_pbanner-01.jpg) no-repeat}
-.ban-b02{ background: url(../images/%20ballscrew/pic_pbanner-02.jpg) no-repeat}
-.ban-b03{ background: url(../images/%20ballscrew/pic_pbanner-03.jpg) no-repeat}	
-.ban-b04{ background: url(../images/%20ballscrew/pic_pbanner-04.jpg) no-repeat}	
-.ban-b05{ background: url(../images/%20ballscrew/pic_pbanner-05.jpg) no-repeat}	
-.ban-b06{ background: url(../images/%20ballscrew/pic_pbanner-06.jpg) no-repeat}	
-.ban-b07{ background: url(../images/%20ballscrew/pic_pbanner-07.jpg) no-repeat}			
+.ban-bs01{ background: url(../images/ballscrew/pic_bsbanner-01.jpg) no-repeat}
+.ban-bs02{ background: url(../images/ballscrew/pic_bsbanner-02.jpg) no-repeat}
+.ban-bs03{ background: url(../images/ballscrew/pic_bsbanner-03.jpg) no-repeat}	
+.ban-bs04{ background: url(../images/ballscrew/pic_bsbanner-04.jpg) no-repeat}	
+.ban-bs05{ background: url(../images/ballscrew/pic_bsbanner-05.jpg) no-repeat}	
+.ban-bs06{ background: url(../images/ballscrew/pic_bsbanner-06.jpg) no-repeat}	
+.ban-bs07{ background: url(../images/ballscrew/pic_bsbanner-07.jpg) no-repeat}
+.ban-bs08{ background: url(../images/ballscrew/pic_bsbanner-08.jpg) no-repeat}					
 
 /*3-3 聯絡我們*/
 #company_info{
