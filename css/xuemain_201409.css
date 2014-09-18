@@ -485,7 +485,41 @@ aside li ul{ padding-left:30px}
 .ban-bs05{ background: url(../images/ballscrew/pic_bsbanner-05.jpg) no-repeat}	
 .ban-bs06{ background: url(../images/ballscrew/pic_bsbanner-06.jpg) no-repeat}	
 .ban-bs07{ background: url(../images/ballscrew/pic_bsbanner-07.jpg) no-repeat}
-.ban-bs08{ background: url(../images/ballscrew/pic_bsbanner-08.jpg) no-repeat}					
+.ban-bs08{ background: url(../images/ballscrew/pic_bsbanner-08.jpg) no-repeat}
+
+/*軸承系列*/
+#list_products-03{ width:888px; padding:0 3px 40px}
+#list_products-03 ul{}
+#list_products-03 li{
+	display:block;
+	float:left;
+	width:180px;
+	margin:0 21px 20px}
+#list_products-03 a>span{
+	display:block;
+	width:174px;
+	height:168px;
+	padding:0 8px 8px;
+	border:1px solid #E6E6E6}
+#list_products-03 a:hover>span{ border:1px solid #ad3713}	
+#list_products-03 a>h5{ line-height:30px; color:#464748; text-align:center}
+#list_products-03 a:hover>h5{ color:#ad3713/*#f07a18*/}	
+#list_products-03 a:hover{ text-decoration:none}
+
+.ban-b01{ background: url(../images/bearings/pic_bbanner-01.jpg) no-repeat}
+.ban-b02{ background: url(../images/bearings/pic_bbanner-02.jpg) no-repeat}
+.ban-b03{ background: url(../images/bearings/pic_bbanner-03.jpg) no-repeat}
+.ban-b04{ background: url(../images/bearings/pic_bbanner-04.jpg) no-repeat}
+.ban-b05{ background: url(../images/bearings/pic_bbanner-05.jpg) no-repeat}
+.ban-b06{ background: url(../images/bearings/pic_bbanner-06.jpg) no-repeat}
+.ban-b07{ background: url(../images/bearings/pic_bbanner-07.jpg) no-repeat}
+.ban-b08{ background: url(../images/bearings/pic_bbanner-08.jpg) no-repeat}
+.ban-b09{ background: url(../images/bearings/pic_bbanner-09.jpg) no-repeat}
+.ban-b10{ background: url(../images/bearings/pic_bbanner-10.jpg) no-repeat}
+.ban-b11{ background: url(../images/bearings/pic_bbanner-11.jpg) no-repeat} 
+.ban-b12{ background: url(../images/bearings/pic_bbanner-12.jpg) no-repeat}
+.ban-b13{ background: url(../images/bearings/pic_bbanner-13.jpg) no-repeat}
+.ban-b14{ background: url(../images/bearings/pic_bbanner-14.jpg) no-repeat}						
 
 /*3-3 聯絡我們*/
 #company_info{
