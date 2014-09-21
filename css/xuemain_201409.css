@@ -544,7 +544,13 @@ aside li ul{ padding-left:30px}
 	padding:0;
 	border-collapse: collapse; 
 	border-spacing: 1px;
-	border:1px solid #CFCFCF}						
+	border:1px solid #CFCFCF}
+
+/*轉造級滾珠螺桿*/
+.ban-rb01{ background:url(../images/rolled-ballscrews/pic_rbbanner.jpg) no-repeat}
+
+/*軸心式滑軌*/
+.ban-d01{ background:url(../images/dualshaft-of-slilde-guide/pic_dbanner.jpg) no-repeat}							
 
 /*3-3 聯絡我們*/
 #company_info{
