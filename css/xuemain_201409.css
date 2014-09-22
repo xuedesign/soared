@@ -99,17 +99,17 @@ nav li{
 	background:url(../images/bg_nav.png) no-repeat}
 .nav_01, .nav_02, .nav_03, .nav_04, .nav_05, .nav_06{ width:103px}	
 .nav_01{ background-position: 0 0}
-.nav_01:hover, .nav_01.navin{ background-position: 0 -28px}
-.nav_02{ background-position: 0 -56px}
-.nav_02:hover, .nav_02.navin{ background-position: 0 -84px}
-.nav_03{ background-position: 0 -112px}
-.nav_03:hover, .nav_03.navin{ background-position: 0 -140px}
-.nav_04{ background-position: 0 -168px}
-.nav_04:hover, .nav_04.navin{ background-position: 0 -196px}
-.nav_05{ width:159px; background-position: 0 -224px}
-.nav_05:hover, .nav_05.navin{ background-position: 0 -252px}
-.nav_06{ background-position: 0 -280px}
-.nav_06:hover, .nav_06.navin{ background-position: 0 -308px}
+.nav_01:hover, .nav_01.navin{ background-position: 0 -33px}
+.nav_02{ background-position: 0 -66px}
+.nav_02:hover, .nav_02.navin{ background-position: 0 -99px}
+.nav_03{ background-position: 0 -132px}
+.nav_03:hover, .nav_03.navin{ background-position: 0 -165px}
+.nav_04{ background-position: 0 -198px}
+.nav_04:hover, .nav_04.navin{ background-position: 0 -231px}
+.nav_05{ width:159px; background-position: 0 -264px}
+.nav_05:hover, .nav_05.navin{ background-position: 0 -297px}
+.nav_06{ background-position: 0 -330px}
+.nav_06:hover, .nav_06.navin{ background-position: 0 -363px}
 
 /* 2.3 完美底部布局*/
 html, body, #wrap {height: 100%}
