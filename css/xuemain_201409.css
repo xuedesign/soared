@@ -566,7 +566,22 @@ aside li ul{ padding-left:30px}
 .ban-bsu03{ background:url(../images/ballscrew-support-units/pic_bsubanner-03.jpg) no-repeat}
 .ban-bsu04{ background:url(../images/ballscrew-support-units/pic_bsubanner-04.jpg) no-repeat}
 .ban-bsu05{ background:url(../images/ballscrew-support-units/pic_bsubanner-05.jpg) no-repeat}
-.ban-bsu06{ background:url(../images/ballscrew-support-units/pic_bsubanner-06.jpg) no-repeat}							
+.ban-bsu06{ background:url(../images/ballscrew-support-units/pic_bsubanner-06.jpg) no-repeat}
+
+/*聯軸器系列*/
+.ban-c01{ background:url(../images/coupling/pic_cbanner.jpg) no-repeat}	
+
+/*線性軸承系列*/
+.ban-l01{ background:url(../images/linear-bearings/pic_lbanner.jpg) no-repeat}
+
+/*自潤軸承系列*/
+.ban-s01{ background:url(../images/self-lubricant-bearings/pic_sbanner.jpg) no-repeat}
+
+/*萬向接頭系列*/
+.ban-uj01{ background:url(../images/universal-joint/pic_ujbanner.jpg) no-repeat}
+
+/*系列*/
+.ban-ms01{ background:url(../images/mini-stage/pic_msbanner.jpg) no-repeat}							
 
 /*3-3 聯絡我們*/
 #company_info{
