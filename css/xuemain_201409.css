@@ -580,8 +580,26 @@ aside li ul{ padding-left:30px}
 /*萬向接頭系列*/
 .ban-uj01{ background:url(../images/universal-joint/pic_ujbanner.jpg) no-repeat}
 
-/*系列*/
-.ban-ms01{ background:url(../images/mini-stage/pic_msbanner.jpg) no-repeat}							
+/*精密微調滑台*/
+.ban-ms01{ background:url(../images/mini-stage/pic_msbanner.jpg) no-repeat}
+
+/*鋁擠系列*/
+#list_products-04{ width:888px; padding:0 3px 40px}
+#list_products-04 ul{}
+#list_products-04 li{
+	display:block;
+	float:left;
+	/*width:180px;
+	height:180px;*/
+	margin:0 15px 20px}
+#list_products-04 span{
+	display:block;
+	width:174px;
+	height:188px;
+	padding:0 8px 8px;
+	border:1px solid #E6E6E6}
+#list_products-04 img{ width:174px; height:174px; margin:0; padding:10px 0}	
+#list_products-04 h5{ line-height:35px; color:#464748; text-align:center}						
 
 /*3-3 聯絡我們*/
 #company_info{
