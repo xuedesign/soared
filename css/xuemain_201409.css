@@ -47,6 +47,14 @@ img{border:0}
 .txt-s{font-size:80%; vertical-align:sub}
 .txt-p{font-size:80%; vertical-align:super}
 .txt-orange{ color:#f07a18}
+.btn_download{
+	display:block;
+	width:32px;
+	height:29px;
+	background:url(../images/btn_download.png) no-repeat;
+	text-indent:-9999px;
+	margin:3px auto}
+.btn_download:hover{background:url(../images/btn_download.png) 0 -29px no-repeat;}
 
 @font-face{ font-family:NotoSansHant-Light; src:url(../fonts/NotoSansHant-Light.otf)}
 
@@ -621,5 +629,4 @@ aside li ul{ padding-left:30px}
 	width:490px;
 	height:577px;
 	border:1px solid #D7D7D7;
-	padding:10px 0 0 10px}
-						   
+	padding:10px 0 0 10px}						   
