@@ -383,14 +383,15 @@ aside li ul{ padding-left:30px}
 	display:block;
 	background: url(../images/bg_ph4.png) no-repeat;
 	height:28px;
-	margin-bottom:30px}	
-.txtlong-4{ width:128px; width:131px !important;}
-.txtlong-5{ width:160px; width:163px; background-position: 0 -28px}	
-.txtlong-6{ width:192px; width:195px !important; background-position: 0 -56px}	
-.txtlong-7{ width:224px; width:227px !important; background-position: 0 -84px}	
-.txtlong-8{ width:256px; width:260px !important; background-position: 0 -112px}
-.txtlong-9{ width:290px; width:294px !important; background-position: 0 -140px}		
-.txtlong-12{ width:388px; width:392px !important; background-position: 0 -168px}				
+	margin-bottom:30px}
+		
+.txtlong-4{ width:128px; width:133px !important;}/*!important的標示寬度修改 #20141016*/
+.txtlong-5{ width:160px; width:165px; background-position: 0 -28px}	
+.txtlong-6{ width:192px; width:198px !important; background-position: 0 -56px}	
+.txtlong-7{ width:224px; width:231px !important; background-position: 0 -84px}	
+.txtlong-8{ width:256px; width:264px !important; background-position: 0 -112px}
+.txtlong-9{ width:290px; width:298px !important; background-position: 0 -140px}		
+.txtlong-12{ width:388px; width:396px !important; background-position: 0 -168px}				
 #maincon h5{
 	font-size:1em;
 	line-height:25px;
@@ -561,6 +562,7 @@ aside li ul{ padding-left:30px}
 	text-align:center;
 	margin:0 auto;
 	padding:0}	
+#maincon .my_tab-n .imgm{ padding:10px 0}	
 
 /*轉造級滾珠螺桿*/
 .ban-rb01{ background:url(../images/rolled-ballscrews/pic_rbbanner.jpg) no-repeat}
